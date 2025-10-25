@@ -10,5 +10,10 @@ def submit():
     age = request.form['age']
     phno = request.form['phno']
     return render_template('greetings.html',fname = fname,lname = lname,age = age,phno =phno)
+
+
+
+
+
 if(__name__ == "__main__"):
     app.run(debug =True)
